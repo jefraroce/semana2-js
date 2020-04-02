@@ -11,14 +11,3 @@ var numeroObtenido = 15
 do {
   numeroObtenido = parseInt( prompt('Ingrese un numero entre 10 y 20') )
 } while ( numeroObtenido < 10 || numeroObtenido > 20 )
-
-//-------------------------------------
-var llegoElPaquete = false
-
-do {
-  vamosAmirarAlaVentana()
-} while ( !llegoElPaquete )
-
-// !false => true
-// !true => false
-// 5 !== 4 =>  true
