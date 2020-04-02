@@ -1,4 +1,6 @@
-// if y switch
+//-----------------
+// if
+//-----------------
 
 /*
 if ( condiciones ) {
@@ -50,7 +52,14 @@ if ( (numero > 0 && numero < 5) || numero === 8 ) {
 }
 */
 
+//### Negaciones ###
+// !false => true
+// !true => false
+// 5 !== 4 =>  true
+
+//-----------------
 // Switch
+//-----------------
 
 // var diasDeLaSemana = [0, 1, 2, 3, 4, 5, 6]
 var diaDeLaSemana = 5
@@ -73,6 +82,8 @@ if ( diaDeLaSemana === 0 ) {
   console.log('Sabado')
 }
 
+// Ejemplo 1
+
 switch(diaDeLaSemana) {
   case 0:
     console.log('Domingo')
@@ -90,8 +101,8 @@ switch(diaDeLaSemana) {
     console.log('Sabado')
 }
 
+// Ejemplo 2
 
-//-------
 var estadoDeLaOrden = 'pending'
 
 switch( estadoDeLaOrden ) {
