@@ -37,4 +37,12 @@ Extra:
 Ejemplo de Entrada => 01/04/2020
 
 Resultado Esperado => Miercoles 01 de Abril del 2020
+
+Taller 3
+
+Crear una función que reciba como valor un año y determine la fecha del 7 domingo de ese año.
+
+Ejemplo de Entrada => 2020
+
+Resultado Esperado => 16 de Febrero
 */
