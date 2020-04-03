@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objetos JS</title>
+
+  <style>
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 5px;
+    }
+
+    form > div {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+
+    form > div input {
+      width: 60%;
+    }
+
+    .caja {
+      background: blue;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+  </style>
+</head>
+<body>
+  <h1>Listado de Mascotas</h1>
+
+  <form onsubmit="agregarMascota( event )">
+    <div>
+      <label for="nombre-mascota">Nombre de la Mascota</label>
+      <input type="text" id="nombre-mascota" required />
+    </div>
+
+    <div>
+      <label for="especie-mascota">Especie</label>
+      <input type="text" id="especie-mascota" required />
+    </div>
+
+    <div>
+      <label for="edad-mascota">Edad</label>
+      <input type="number" min="0" id="edad-mascota" required />
+    </div>
+
+    <button type="submit">Agregar</button>
+  </form>
+
+  <ul class="lista-mascotas">
+
+  </ul>
+
+  <!-- <div class="caja" onclick="console.log('Click en el div')">
+    <button onclick="clickIzquierda( event )">Izquierda</button>
+
+    <button onclick="console.log('Click a la derecha')">Derecha</button>
+  </div>
+
+  <a href="https://www.google.com" onclick="intersetarEnlace( event )">Ir a Google</a> -->
+
+  <script src="objetos.js"></script>
+</body>
+</html>
